@@ -21,7 +21,9 @@ const Header: React.FC = () => {
           <Link href="/kurs" className="text-sm">Kurs</Link>
           <Link href="/om-oss" className="text-sm">Om oss</Link>
         </div>
-        <ThemeSwitch />
+        <div className="pr-4">
+          <ThemeSwitch />
+        </div>
       </nav>
     </header>
   );

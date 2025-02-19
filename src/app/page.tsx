@@ -15,7 +15,7 @@ export default function Home() {
           Kompetanse
         </div>
       </div>
-      <div className="flex flex-col gap-4 flex-wrap items-center pt-96">
+      <div className="flex flex-col gap-4 flex-wrap items-center pt-64">
         <div className="text-sm">
           Ta kontakt med oss
         </div>

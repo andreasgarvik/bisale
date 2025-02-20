@@ -12,6 +12,8 @@ export default function Home() {
           priority
         />
       </div>
+
+
       <div className="flex flex-col gap-4 flex-wrap items-center pt-64">
         <div className="text-sm">
           Ta kontakt med oss

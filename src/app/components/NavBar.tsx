@@ -7,7 +7,7 @@ import ThemeSwitch from './ThemeSwitch';
 const Header: React.FC = () => {
   return (
     <header>
-      <nav className="pl-2 flex justify-between items-center">
+      <nav className="flex justify-between items-center">
         <div className="flex items-center gap-6">
           <Link href="/">
             <Image

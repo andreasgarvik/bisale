@@ -7,11 +7,11 @@ import ThemeSwitch from './ThemeSwitch';
 const Header: React.FC = () => {
   return (
     <header>
-      <nav className="p-4 flex justify-between items-center">
+      <nav className="pl-2 flex justify-between items-center">
         <div className="flex items-center gap-6">
           <Link href="/">
             <Image
-              src="/bisale_logo.svg"
+              src="/logo.svg"
               alt="BISALE logo"
               width={90}
               height={19}

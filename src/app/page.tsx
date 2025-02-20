@@ -11,9 +11,6 @@ export default function Home() {
           height={38}
           priority
         />
-        <div className="text-lg">
-          Kompetanse
-        </div>
       </div>
       <div className="flex flex-col gap-4 flex-wrap items-center pt-64">
         <div className="text-sm">

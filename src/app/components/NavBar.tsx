@@ -19,6 +19,7 @@ const Header: React.FC = () => {
             />
           </Link>
           <Link href="/kurs" className="text-sm">Kurs</Link>
+          <Link href="/delta" className="text-sm">Påmelding</Link>
           <Link href="/om-oss" className="text-sm">Om oss</Link>
         </div>
         <div className="pr-4">

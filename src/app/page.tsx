@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center p-16 gap-16 font-[family-name:var(--font-geist-sans)]">
+    <main className="grid min-h-screen pb-64 font-[family-name:var(--font-geist-sans)]">
       <div className="flex flex-col items-center">
         <Image
           src="/bisale_logo.svg"
@@ -15,7 +15,7 @@ export default function Home() {
       <div className="flex flex-col items-center">
         <Image
           src="/sharing-knowledge.svg"
-          alt="BISALE logo"
+          alt="unDraw illustration"
           width={270}
           height={57}
           priority

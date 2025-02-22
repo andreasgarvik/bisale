@@ -2,13 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
-:root {
-  --background: #ffc0cb;
-  --foreground: black;
-}
-
-[data-theme='dark'] {
-  --background: black;
-  --foreground: #ffc0cb;
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding-bottom: 60px;
+  /* Adjust based on footer height */
 }

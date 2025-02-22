@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Courses() {
   return (
-    <main className="flex flex-col min-h-screen items-center gap-16 font-[family-name:var(--font-geist-sans)]">
+    <main className="flex flex-col min-h-screen items-center md:gap-64 gap-16 font-[family-name:var(--font-geist-sans)]">
       <div className="grid md:grid-cols-2 grid-cols-1 gap-8">
         <a href="https://forms.gle/8oNQvKfqAbYicbiN9" className="bg-[#FFC0CB] text-white p-8 rounded-lg shadow hover:shadow-lg transition transform hover:scale-105">
           Assistentkurs

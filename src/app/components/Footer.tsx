@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer: React.FC = () => {
+export default () => {
   return (
     <footer className="text-center text-sm pb-8 pt-6">
       <div className="mb-4">
@@ -15,5 +15,3 @@ const Footer: React.FC = () => {
     </footer>
   );
 };
-
-export default Footer;

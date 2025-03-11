@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from 'next/link'
 import ThemeSwitch from './ThemeSwitch';
 
-const Header: React.FC = () => {
+export default () => {
   return (
     <header>
       <nav className="flex justify-between items-center">
@@ -20,6 +20,7 @@ const Header: React.FC = () => {
           </Link>
           <Link href="/kurs" className="text-sm">Kurs</Link>
           <Link href="/delta" className="text-sm">Påmelding</Link>
+          <Link href="/personvern" className="text-sm">Personvern</Link>
           <Link href="/om-oss" className="text-sm">Om oss</Link>
         </div>
         <div className="pr-4">
@@ -29,5 +30,3 @@ const Header: React.FC = () => {
     </header>
   );
 };
-
-export default Header;

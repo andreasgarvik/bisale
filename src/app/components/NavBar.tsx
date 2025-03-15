@@ -20,8 +20,9 @@ const NavBar = () => {
           </Link>
           <Link href="/kurs" className="text-sm">Kurs</Link>
           <Link href="/delta" className="text-sm">Påmelding</Link>
-          <Link href="/personvern" className="text-sm">Personvern</Link>
+          <Link href="/finansiering" className="text-sm">Finansiering</Link>
           <Link href="/om-oss" className="text-sm">Om oss</Link>
+          <Link href="/personvern" className="text-sm">Personvern</Link>
         </div>
         <div className="pr-4">
           <ThemeSwitch />

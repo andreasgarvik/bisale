@@ -4,8 +4,8 @@ const OmOss = () => {
   return (
     <main className="flex flex-col min-h-screen items-center justify-items-center pt-8 gap-24 font-[family-name:var(--font-geist-sans)]">
       <div className="flex flex-col items-center">
-        <div className="text-center text-lg pb-4">
-          BISALE tilbyr kurs og kompetanseheving innenfor helse.
+        <div className="text-center text-lg">
+          BISALE tilbyr nettkurs og kompetanseheving innenfor helse.
         </div>
       </div >
       <div className="flex flex-col items-center">

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default () => {
+const OmOss = () => {
   return (
     <main className="flex flex-col min-h-screen items-center justify-items-center pt-8 gap-24 font-[family-name:var(--font-geist-sans)]">
       <div className="flex flex-col items-center">
@@ -23,3 +23,5 @@ export default () => {
     </main>
   );
 }
+
+export default OmOss;

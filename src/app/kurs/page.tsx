@@ -8,7 +8,7 @@ const courses = [
   { id: 4, title: "Kombokurs: Teori + eksamen", description: "Ønsker du både teorikurset og eksamenskurset? Vi tilbyr begge til en redusert pris, slik at du får en grundig forberedelse til både læring og eksamen – til en ekstra gunstig pris!", price: "kr 16 500,-", alignRight: false },
 ];
 
-export default () => {
+const Kurs = () => {
   return (
     <main className="flex flex-col min-h-screen items-center justify-center gap-16 font-[family-name:var(--font-geist-sans)] px-4 md:px-0"> {/* Legg til padding på siden */}
       <div className="flex flex-col w-full max-w-4xl mx-auto">
@@ -28,3 +28,5 @@ export default () => {
     </main>
   );
 }
+
+export default Kurs;

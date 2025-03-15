@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { useTheme } from 'next-themes'
 import Image from "next/image"
 
-export default () => {
+const ThemeSwitch = () => {
   const [mounted, setMounted] = useState(false)
   const { setTheme, resolvedTheme } = useTheme()
 
@@ -32,3 +32,5 @@ export default () => {
     </div>
   )
 }
+
+export default ThemeSwitch

@@ -1,7 +1,6 @@
 import Image from "next/image";
 
-export default () => {
-
+const Personvern = () => {
   return (
     <main className="flex flex-col min-h-screen items-center justify-items-center pt-8 gap-24 font-[family-name:var(--font-geist-sans)]">
       <div className="flex flex-col max-w-2xl w-full items-center">
@@ -25,4 +24,6 @@ export default () => {
     </main>
   );
 }
+
+export default Personvern;
 

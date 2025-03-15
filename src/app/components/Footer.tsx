@@ -1,6 +1,6 @@
 import React from "react";
 
-export default () => {
+const Footer = () => {
   return (
     <footer className="text-center text-sm pb-8 pt-6">
       <div className="mb-4">
@@ -15,3 +15,5 @@ export default () => {
     </footer>
   );
 };
+
+export default Footer;

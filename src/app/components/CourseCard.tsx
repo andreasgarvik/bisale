@@ -1,4 +1,4 @@
-export default ({ title, description, price, alignRight }: { title: string; description: string; price: string; alignRight: boolean }) => {
+const CourseCard = ({ title, description, price, alignRight }: { title: string; description: string; price: string; alignRight: boolean }) => {
   return (
     <div className={`flex ${alignRight ? "justify-end" : "justify-start"} mb-6`}>
       <div
@@ -11,3 +11,5 @@ export default ({ title, description, price, alignRight }: { title: string; desc
     </div>
   );
 };
+
+export default CourseCard;

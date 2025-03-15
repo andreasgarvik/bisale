@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Home() {
+const Home = () => {
   return (
     <main className="grid min-h-screen pb-64 font-[family-name:var(--font-geist-sans)]">
       <div className="flex flex-col items-center">
@@ -31,3 +31,5 @@ export default function Home() {
     </main>
   );
 }
+
+export default Home;

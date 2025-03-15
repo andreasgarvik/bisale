@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default () => {
+const Delta = () => {
   return (
     <main className="flex flex-col min-h-screen items-center md:gap-64 gap-16 font-[family-name:var(--font-geist-sans)]">
       <div className="grid md:grid-cols-2 grid-cols-1 gap-8">
@@ -27,3 +27,5 @@ export default () => {
     </main>
   );
 }
+
+export default Delta;

@@ -1,4 +1,4 @@
-export default ({ children }: Readonly<{ children: React.ReactNode }>) => {
+const Background = ({ children }: Readonly<{ children: React.ReactNode }>) => {
   return (
     <div className="parallax-container">
       <div className="content">
@@ -7,3 +7,5 @@ export default ({ children }: Readonly<{ children: React.ReactNode }>) => {
     </div>
   );
 };
+
+export default Background;

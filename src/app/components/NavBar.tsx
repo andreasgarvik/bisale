@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from 'next/link'
 import ThemeSwitch from './ThemeSwitch';
 
-export default () => {
+const NavBar = () => {
   return (
     <header>
       <nav className="flex justify-between items-center">
@@ -30,3 +30,5 @@ export default () => {
     </header>
   );
 };
+
+export default NavBar;

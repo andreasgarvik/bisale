@@ -18,7 +18,7 @@ const Finansiering = () => {
           priority
         />
       </div>
-      <div className="max-w-2xl w-full text-center text-sm">
+      <div className="max-w-2xl w-full text-center text-sm pr-8 pl-8">
         Om du er medlem i et LO-forbund og har vært det i mer enn tre år, kan du søke LOs utdanningsfond om stipend til korte yrkesrettede kurs med inntil kr 4 000,-.
       </div>
       <div className="flex flex-col items-center text-center text-sm">
@@ -29,7 +29,7 @@ const Finansiering = () => {
           <LinkButton to="https://utdanningsfond.lo.no/" />
         </div>
       </div>
-      <div className="flex flex-col items-center text-center text-sm">
+      <div className="flex flex-col items-center text-center text-sm pr-8 pl-8">
         Ellers kan du høre med din arbeidsgiver om de kan dekke kursavgiften.
       </div>
     </main>

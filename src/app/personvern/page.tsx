@@ -6,7 +6,7 @@ const Personvern = () => {
       <div className="flex flex-col max-w-2xl w-full items-center">
         <h1 className="text-xl font-bold pb-4">Personvern</h1>
         <iframe
-          src="https://files.gdprcontrol.no/d86255bb-b2a7-461b-81e9-354d38b8e374.html"
+          src="https://files.gdprcontrol.no/9307b3d6-e14f-4a74-901b-5c69320ed9e7.html"
           title="Personvernerklæring"
           className="max-w-2xl w-full h-96 bg-gray-100 rounded-lg"
 
